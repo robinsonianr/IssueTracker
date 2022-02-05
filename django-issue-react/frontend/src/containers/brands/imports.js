@@ -1,7 +1,7 @@
-import google from '../../assets/google.png'
-import slack from '../../assets/slack.png'
-import amazon from '../../assets/amazon.png'
-import blizzard from '../../assets/blizzard.png'
+import google from '../../assets/google1.png'
+import slack from '../../assets/slack1.png'
+import amazon from '../../assets/amazon1.png'
+import blizzard from '../../assets/blizzard1.png'
 
 
 export{

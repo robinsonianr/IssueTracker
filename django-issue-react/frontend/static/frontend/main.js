@@ -66,7 +66,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"google\": () => (/* reexport safe */ _assets_google_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   \"slack\": () => (/* reexport safe */ _assets_slack_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   \"amazon\": () => (/* reexport safe */ _assets_amazon_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   \"blizzard\": () => (/* reexport safe */ _assets_blizzard_png__WEBPACK_IMPORTED_MODULE_3__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _assets_google_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../assets/google.png */ \"./src/assets/google.png\");\n/* harmony import */ var _assets_slack_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/slack.png */ \"./src/assets/slack.png\");\n/* harmony import */ var _assets_amazon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/amazon.png */ \"./src/assets/amazon.png\");\n/* harmony import */ var _assets_blizzard_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/blizzard.png */ \"./src/assets/blizzard.png\");\n\n\n\n\n\n\n//# sourceURL=webpack://frontend/./src/containers/brands/imports.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"google\": () => (/* reexport safe */ _assets_google1_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   \"slack\": () => (/* reexport safe */ _assets_slack1_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   \"amazon\": () => (/* reexport safe */ _assets_amazon1_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   \"blizzard\": () => (/* reexport safe */ _assets_blizzard1_png__WEBPACK_IMPORTED_MODULE_3__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _assets_google1_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../assets/google1.png */ \"./src/assets/google1.png\");\n/* harmony import */ var _assets_slack1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/slack1.png */ \"./src/assets/slack1.png\");\n/* harmony import */ var _assets_amazon1_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/amazon1.png */ \"./src/assets/amazon1.png\");\n/* harmony import */ var _assets_blizzard1_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/blizzard1.png */ \"./src/assets/blizzard1.png\");\n\n\n\n\n\n\n//# sourceURL=webpack://frontend/./src/containers/brands/imports.js?");
 
 /***/ }),
 
@@ -76,7 +76,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer.css */ \"./src/containers/footer/footer.css\");\n\n\n\nvar Footer = function Footer() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, \"Footer\");\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);\n\n//# sourceURL=webpack://frontend/./src/containers/footer/Footer.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer.css */ \"./src/containers/footer/footer.css\");\n/* harmony import */ var _assets_issue_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/issue.png */ \"./src/assets/issue.png\");\n\n\n\n\nvar Footer = function Footer() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"issue__footer section__padding\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"issue__footer-heading\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"Do you want the next best help desk software\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"issue__footer-btn\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Request Access\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"issue__footer-links\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"issue__footer-links_logo\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    src: _assets_issue_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n    alt: \"logo\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"issue__footer-links_div\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h4\", null, \"Links\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Social Media\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Details\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Partners\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Contact\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"issue__footer-links_div\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h4\", null, \"Company\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Terms & Conditions\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Privacy and Policy\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Contact\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"issue__footer-links_div\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h4\", null, \"Get in Touch\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"234 Barrel Rd\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"555-672-3421\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"issue@askeme.net\"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"issue__footer-copyright\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"\\xA9 2022 Issue Tracker. All rights reserved.\")));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);\n\n//# sourceURL=webpack://frontend/./src/containers/footer/Footer.jsx?");
 
 /***/ }),
 
@@ -246,7 +246,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"../node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"../node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://frontend/./src/containers/footer/footer.css?../node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"../node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"../node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".issue__footer{\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    justify-content: center;\\r\\n    align-items: center;\\r\\n}\\r\\n\\r\\n\\r\\n\\r\\n.issue__footer-heading h1{\\r\\n    width: 100%;\\r\\n    text-align: center;\\r\\n    \\r\\n    margin-bottom: 3rem;\\r\\n}\\r\\n.issue__footer-heading h1{\\r\\n    color: gold;\\r\\n    font-weight: 600;\\r\\n    font-size: 30px;\\r\\n    text-align: center;\\r\\n\\r\\n}\\r\\n\\r\\n.issue__footer-btn {\\r\\n   display: flex;\\r\\n   justify-content: center;\\r\\n   align-items: center;\\r\\n   text-align: center;\\r\\n\\r\\n   padding: 1rem;\\r\\n   border: 1px solid white;\\r\\n   margin-bottom: 10rem;\\r\\n   cursor: pointer;\\r\\n}\\r\\n\\r\\n.issue__footer-btn p{\\r\\n    box-sizing: border-box;\\r\\n    align-items: center;\\r\\n    justify-content: center;\\r\\n    font-size: 18px;\\r\\n    word-spacing: 2px;\\r\\n}\\r\\n\\r\\n.issue__footer-links{\\r\\n    display: flex;\\r\\n    justify-content: space-between;\\r\\n    align-items: flex-start;\\r\\n    flex-wrap: wrap;\\r\\n    flex-direction: row;\\r\\n\\r\\n\\r\\n    width: 100%;\\r\\n    text-align: left;\\r\\n}\\r\\n\\r\\n.issue__footer-links div{\\r\\n    width: 250px;\\r\\n    margin: 1;\\r\\n}\\r\\n\\r\\n.issue__footer-links_logo{\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n}\\r\\n\\r\\n.issue__footer-links_logo img{\\r\\n    width: 75px;\\r\\n    height: 75px;\\r\\n}\\r\\n\\r\\n\\r\\n.issue__footer-links_div{\\r\\n    display: flex;\\r\\n    justify-content: flex-start;\\r\\n    flex-direction: column;\\r\\n\\r\\n    margin-bottom: 1rem;\\r\\n}\\r\\n\\r\\n.issue__footer-links_div p{\\r\\n    margin:  0.5rem 0;\\r\\n    cursor: pointer;\\r\\n}\\r\\n\\r\\n.issue__footer-copyright{\\r\\n    margin-top: 2rem;\\r\\n    text-align: center;\\r\\n    width: 100%;\\r\\n}\\r\\n\\r\\n\\r\\n@media screen and(max-width: 850px) {\\r\\n    .issue__footer-heading h1{\\r\\n         font-size: 20px;\\r\\n         line-height: 35px; \\r\\n    }\\r\\n}\\r\\n\\r\\n@media screen and(max-width: 550px) {\\r\\n    .issue__footer-heading h1{\\r\\n         font-size: 16px;\\r\\n         line-height: 30px; \\r\\n    }\\r\\n\\r\\n    .issue__footer-links div{\\r\\n        margin: 1rem 0;\\r\\n    }\\r\\n\\r\\n    .issue__footer-btn p{\\r\\n        font-size: 16px;\\r\\n        line-height: 35px; \\r\\n   }\\r\\n}\\r\\n\\r\\n\\r\\n@media screen and(max-width: 390px) {\\r\\n    .issue__footer-heading h1{\\r\\n         font-size: 14px;\\r\\n         line-height: 24px; \\r\\n    }\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://frontend/./src/containers/footer/footer.css?../node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -290,33 +290,33 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
-/***/ "./src/assets/amazon.png":
-/*!*******************************!*\
-  !*** ./src/assets/amazon.png ***!
-  \*******************************/
+/***/ "./src/assets/amazon1.png":
+/*!********************************!*\
+  !*** ./src/assets/amazon1.png ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"/src/assets/amazon.png\");\n\n//# sourceURL=webpack://frontend/./src/assets/amazon.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"/src/assets/amazon1.png\");\n\n//# sourceURL=webpack://frontend/./src/assets/amazon1.png?");
 
 /***/ }),
 
-/***/ "./src/assets/blizzard.png":
-/*!*********************************!*\
-  !*** ./src/assets/blizzard.png ***!
-  \*********************************/
+/***/ "./src/assets/blizzard1.png":
+/*!**********************************!*\
+  !*** ./src/assets/blizzard1.png ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"/src/assets/blizzard.png\");\n\n//# sourceURL=webpack://frontend/./src/assets/blizzard.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"/src/assets/blizzard1.png\");\n\n//# sourceURL=webpack://frontend/./src/assets/blizzard1.png?");
 
 /***/ }),
 
-/***/ "./src/assets/google.png":
-/*!*******************************!*\
-  !*** ./src/assets/google.png ***!
-  \*******************************/
+/***/ "./src/assets/google1.png":
+/*!********************************!*\
+  !*** ./src/assets/google1.png ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"/src/assets/google.png\");\n\n//# sourceURL=webpack://frontend/./src/assets/google.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"/src/assets/google1.png\");\n\n//# sourceURL=webpack://frontend/./src/assets/google1.png?");
 
 /***/ }),
 
@@ -330,13 +330,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/assets/slack.png":
-/*!******************************!*\
-  !*** ./src/assets/slack.png ***!
-  \******************************/
+/***/ "./src/assets/slack1.png":
+/*!*******************************!*\
+  !*** ./src/assets/slack1.png ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"/src/assets/slack.png\");\n\n//# sourceURL=webpack://frontend/./src/assets/slack.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"/src/assets/slack1.png\");\n\n//# sourceURL=webpack://frontend/./src/assets/slack1.png?");
 
 /***/ }),
 
