@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Footer, Issues, Features, Header} from './containers';
+import {Footer, Brands, Header} from './containers';
 import {Navbar} from './components';
 import './App.css';
 
@@ -52,8 +52,7 @@ class App extends Component {
           })}
           </ul> */}
         </div>
-        <Issues />
-        <Features />
+        <Brands />
         <Footer />
       </div>
   )};

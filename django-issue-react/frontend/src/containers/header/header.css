@@ -1,0 +1,111 @@
+.support__text h1{
+    color: gold;
+    font-weight: 600;
+
+}
+.support__text p{
+    color: gold;
+    font-weight: 400;
+}
+
+.issue__header{
+    display: flex;
+}
+
+
+.issue__header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin: 5px;
+}
+
+
+.issue__header-content__input{
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    
+}
+
+.issue__header-content__input input{
+    background: darkslategray;
+    min-height: 50px;
+    border: 2px  darkslategray;
+    outline: none;
+    padding: 0 1rem;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+
+}
+
+
+.issue__header-content__input button{
+    padding: 0rem 1rem;
+    color: white;
+    background: gold;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+}
+
+
+@media screen and (max-width: 1000px){
+    .issue__header{
+        flex-direction: column;
+    }
+
+    .issue__header-content{
+        margin: 0 0 3rem;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .issue__header h1{
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    .issue__header p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .issue__header-content{
+        margin: 0 0 3rem;
+    }
+
+    .issue__header-content__input input,
+    .issue__header-content__input button{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+
+@media screen and (max-width: 490px){
+    .issue__header h1{
+        font-size: 24px;
+        line-height: 48px;
+    }
+
+    .issue__header p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .issue__header-content__input input,
+    .issue__header-content__input button{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

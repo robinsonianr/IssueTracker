@@ -1,4 +1,3 @@
-export {default as Features} from './features/Features.jsx';
 export {default as Footer} from './footer/Footer.jsx';
 export {default as Header} from './header/Header.jsx';
-export {default as Issues} from './issues/Issues.jsx';
+export {default as Brands} from './brands/Brands.jsx';

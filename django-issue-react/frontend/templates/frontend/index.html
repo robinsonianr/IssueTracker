@@ -3,11 +3,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Issue Tracker</title>
-  
-  {% comment %} <link rel="stylesheet" type="text/css" href="{% static 'frontend/sb-admin-2.min.css' %}">
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'frontend/sb-admin-2.min.css' %}">
   <script type="text/javascript" src="{% static 'frontend/jquery.min.js' %}"></script>
   <script type="text/javascript" src="{% static 'frontend/bootstrap.min.js' %}"></script>
-  <script type="text/map" src="{% static 'frontend/bootstrap.min.js.map' %}"></script> {% endcomment %}
+  <script type="text/map" src="{% static 'frontend/bootstrap.min.js.map' %}"></script>
   <link rel="shortcut icon" href="#"> 
 </head>
 <body>
@@ -15,6 +15,6 @@
     <!-- React will load here -->
 </div>
 </body>
-{% load static %}
+
 <script src="{% static 'frontend/main.js' %}"></script>
 </html>
