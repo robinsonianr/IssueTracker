@@ -1,0 +1,257 @@
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --eden: 
+rgba(20, 88, 68, 1);
+  --gold-tips: 
+rgba(216, 184, 18, 1);
+  --candlelight: 
+rgba(255, 216, 17, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-s: 24px;
+  --font-size-m: 20px;
+  --font-size-m: 36px;
+  --font-size-l: 64px;
+
+  --font-family-manrope: "Manrope";
+  --font-family-poppins: "Poppins";
+}
+
+
+
+.manrope-bold-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.dashboard {
+  align-items: flex-start;
+  background-color: 
+#f0f0f0;
+  display: flex;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.overlap-group1 {
+  height: 1239px;
+  margin-left: 1px;
+  position: relative;
+  width: 1920px;
+}
+
+.overlap-group {
+  height: 1239px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.rectangle-4 {
+  height: 221px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.rectangle-5 {
+  background-color: var(--white);
+  height: 1239px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 290px;
+}
+
+.frame-3 {
+  align-items: center;
+  display: flex;
+  height: 91px;
+  left: 15px;
+  min-width: 240px;
+  position: absolute;
+  top: 65px;
+}
+
+.ionbug-outline {
+  height: 91px;
+  width: 100px;
+}
+
+.issue-tracker {
+  height: 30px;
+  letter-spacing: 0;
+  margin-left: 9px;
+  min-width: 131px;
+}
+
+.issue-tracker-project {
+  color: var(--gold-tips);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  height: 30px;
+  left: 387px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 85px;
+}
+
+.frame-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 106px;
+  min-height: 126px;
+  position: absolute;
+  top: 276px;
+  width: 112px;
+}
+
+.dashboard-1 {
+  height: 30px;
+  letter-spacing: 0;
+}
+
+.issues {
+  height: 30px;
+  letter-spacing: 0;
+  margin-top: 66px;
+}
+
+.vector-1 {
+  height: 2px;
+  left: 23px;
+  position: absolute;
+  top: 448px;
+  width: 225px;
+}
+
+.vector-2 {
+  height: 2px;
+  left: 23px;
+  position: absolute;
+  top: 220px;
+  width: 225px;
+}
+
+.sign-in {
+  height: 30px;
+  left: 103px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 496px;
+}
+
+.frame-5 {
+  align-items: center;
+  background-color: var(--gold-tips);
+  border-radius: 10px;
+  display: flex;
+  height: 50px;
+  left: 72px;
+  min-width: 129px;
+  padding: 0 27px;
+  position: absolute;
+  top: 573px;
+}
+
+.sign-up {
+  height: 30px;
+  letter-spacing: 0;
+  min-width: 75px;
+}
+
+.ictwotone-space-dashboard {
+  height: 50px;
+  left: 18px;
+  position: absolute;
+  top: 276px;
+  width: 50px;
+}
+
+.ant-designissues-close-outlined {
+  height: 50px;
+  left: 18px;
+  position: absolute;
+  top: 356px;
+  width: 50px;
+}
+
+.group-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 40.5px/40px;
+  display: flex;
+  height: 80px;
+  left: 1793px;
+  min-width: 81px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 60px;
+}
+
+.akar-iconsperson {
+  height: 71px;
+  width: 71px;
+}
+
+.sign-in-1 {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  height: 30px;
+  left: 1800px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 156px;
+}
+
+.browser_icon_3-1 {
+  height: 750px;
+  left: 556px;
+  position: absolute;
+  top: 286px;
+  width: 1036px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

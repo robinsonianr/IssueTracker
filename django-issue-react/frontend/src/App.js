@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Footer, Brands, Header} from './containers';
+import {Footer, Brands, Header, HomePage} from './containers';
 import {Navbar} from './components';
 import './App.css';
 
@@ -37,12 +37,14 @@ class App extends Component {
  
  
  render() {
+
    return( 
      <div className="App">
-       <div className="gradient__bg">
+       <HomePage/>
+       {/* <div className="gradient__bg">
          <Navbar />
          <Header />
-          {/* <ul>
+          <ul>
           {this.state.data.map(contact => {
             return (
               <li key={contact.id}>
@@ -50,12 +52,12 @@ class App extends Component {
               </li>
             );
           })}
-          </ul> */}
+          </ul>
         </div>
         <Brands />
-        <Footer />
-      </div>
-  )};
+        <Footer /> */}
+    </div>
+    )};
     }
 
 
