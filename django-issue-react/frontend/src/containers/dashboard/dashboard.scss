@@ -1,0 +1,297 @@
+$user: url('../../assets/akar-icons-person.svg');
+
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --eden: 
+rgba(20, 88, 68, 1);
+  --mist-gray: 
+rgba(196, 196, 196, 1);
+  --gold-tips: 
+rgba(216, 184, 18, 1);
+  --gallery: 
+rgba(240, 240, 240, 1);
+  --saffron: 
+rgba(242, 199, 47, 1);
+  --saffron: 
+rgba(254, 188, 46, 1);
+  --candlelight: 
+rgba(255, 216, 17, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-xxs: 18px;
+  --font-size-m: 36px;
+  --font-size-l: 64px;
+  --font-size-m2: 20px;
+  --font-size-s2: 24px;
+  --font-size-l2: 25px;
+  --font-size-xl2: 35px;
+
+  --font-family-manrope: "Manrope";
+  --font-family-poppins: "Poppins";
+  --font-family-poppins-bold: "Poppins-Bold";
+  --font-family-poppins-medium: "Poppins-Medium";
+}
+
+
+
+.poppins-normal-black-25px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l2);
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s2);
+  font-weight: 400;
+  font-style: normal;
+}
+.manrope-bold-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-bold-gold-tips-20px {
+  color: var(--gold-tips);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m2);
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dashboard {
+  align-items: flex-start;
+  background-color: 
+#f3f3f3;
+  display: flex;
+  height: 1024px;
+  width: 1440px;
+}
+
+.overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 1024px;
+  width: 254px;
+}
+
+.overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px 
+#000000;
+  display: flex;
+  height: 105px;
+  min-width: 254px;
+  padding: 7px 17px;
+}
+
+.ion-bug-outline-1 {
+  height: 90px;
+  width: 90px;
+}
+
+.issue-tracker {
+  align-self: center;
+  letter-spacing: 0;
+  margin-bottom: 1px;
+  margin-left: 11px;
+  min-height: 27px;
+  min-width: 118px;
+}
+
+.overlap-group1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 919px;
+  padding: 66px 24.2px;
+  width: 254px;
+}
+
+.group-6 {
+  align-items: flex-end;
+  display: flex;
+  margin-right: 24px;
+  min-width: 150px;
+}
+
+.vector {
+  height: 30px;
+  width: 30px;
+}
+
+.dashboard-1 {
+  letter-spacing: 0;
+  margin-left: 19px;
+  min-height: 27px;
+  min-width: 101px;
+}
+
+.frame-2 {
+  align-items: center;
+  display: flex;
+  margin-right: 23px;
+  margin-top: 18px;
+  min-width: 151px;
+}
+
+.ant-design-issues-close-outlined-1 {
+  height: 34px;
+  width: 34px;
+}
+
+.issues {
+  letter-spacing: 0;
+  margin-left: 16px;
+  min-height: 25px;
+  width: 101px;
+}
+
+.vector-1 {
+  align-self: flex-end;
+  height: 2px;
+  margin-top: 41px;
+  width: 205px;
+}
+
+.sign-in {
+  letter-spacing: 0;
+  margin-right: 12px;
+  margin-top: 59px;
+  min-height: 27px;
+  min-width: 60px;
+}
+
+.overlap-group {
+  align-items: center;
+  background-color: var(--saffron);
+  border-radius: 8px;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  margin-right: 7px;
+  margin-top: 18px;
+  min-width: 107px;
+  padding: 0 19px;
+}
+
+.sign-up {
+  letter-spacing: 0;
+  min-height: 27px;
+  min-width: 68px;
+}
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 903px;
+  width: 1186px;
+}
+
+.overlap-group2 {
+  height: 105px;
+  position: relative;
+  width: 1186px;
+}
+
+.title {
+  color: var(--saffron);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s2);
+  font-weight: 400;
+  left: 74px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 34px;
+}
+
+.rectangle-3 {
+  height: 105px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1186px;
+}
+
+.group-5 {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  left: 1032px;
+  min-width: 121px;
+  position: absolute;
+  top: 27px;
+}
+
+.login {
+  color: var(--saffron);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-bottom: 1px;
+  min-height: 27px;
+  min-width: 48px;
+}
+
+.group-4 {
+  background-color: var(--white);
+  background-image: $user;
+  background-size: 100% 100%;
+  border-radius: 4px;
+  height: 50px;
+  margin-left: 21px;
+  width: 50px;
+}
+
+.browser_icon_3-1 {
+  height: 684px;
+  margin-right: 19px;
+  margin-top: 114px;
+  width: 945px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}

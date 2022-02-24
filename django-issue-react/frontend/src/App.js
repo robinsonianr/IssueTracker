@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Footer, Brands, Header, HomePage} from './containers';
+import {Footer, Brands, Header, Dashboard} from './containers';
 import {Navbar} from './components';
 import './App.css';
 
@@ -40,7 +40,7 @@ class App extends Component {
 
    return( 
      <div className="App">
-       <HomePage/>
+       <Dashboard/>
        {/* <div className="gradient__bg">
          <Navbar />
          <Header />
